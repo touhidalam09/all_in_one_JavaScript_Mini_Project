@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App JS</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>This is best quiz on the local Internet</h1>
+    
+    <form id="quiz" name="quiz">
+        <p>What is the capital of Bangladesh ?</p>
+        <input type="text" id="textbox" name="question1">
+
+        <p>What is the currency of Bangladesh?</p>
+        <input type="radio" id="mc" name="question2" value="Taka">Taka<br>
+        <input type="radio" id="mc" name="question2" value="Rupi">Rupi<br>
+
+        <p>What is the currency of America?</p>
+        <input type="radio" id="mc" name="question3" value="Taka">Taka<br>
+        <input type="radio" id="mc" name="question3" value="Dollar">Dollar<br>
+
+        <input type="button" id="button" value="I'm Finished" onclick="check();">
+
+    </form>
+    <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct">
+            
+        </p>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
