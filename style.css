@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #010203;
+}
+ul li {
+    list-style-type: none;
+}
+/* MAIN NAVIGATION */
+.row-nav{
+    background: #010203;
+    width: 100%;
+}
+div.sticky {
+    position: sticky;
+    top: 0;
+  }
+.main-nav{
+    margin-top: 100px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-nav li:first-child{
+    margin-left: 0;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 10px 26px;
+    border-top-left-radius: 30px 20px;
+    display: inline-block;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    background: #643a79;
+}
