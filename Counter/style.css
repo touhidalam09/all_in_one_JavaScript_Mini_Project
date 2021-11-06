@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: url("./1.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 80vh;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter {
+    font-size: 6em;
+    font-weight: 500;
+    color: cyan;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan, 0 0 80px cyan, 0 0 120px cyan, 0 0 160px cyan;
+}
+
+.btn-grp {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-grp a {
+    text-decoration: none;
+    background: rgb(45, 148, 189);
+    border: 1px solid pink;
+    text-align: center;
+    padding: 12px;
+}
+
+.btn-grp a:hover {
+    color: whitesmoke;
+    box-shadow: 0 0 7px 1px cyan;
+}
