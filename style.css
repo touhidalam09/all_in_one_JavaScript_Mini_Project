@@ -1,40 +1,77 @@
-*{
+* {
     padding: 0;
-    margin:  0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Rajdhani', sans-serif;
     background-color: #010203;
 }
+
 ul li {
     list-style-type: none;
 }
+
+
 /* MAIN NAVIGATION */
-.row-nav{
+
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:nth-child(odd) {
+    background-color: #0a0a0a;
+}
+
+.row:nth-child(even) {
+    background-color: #181717;
+}
+
+.column:nth-child(odd) {
+    text-align: end;
+    border-right: 2px dotted tomato;
+}
+
+.row-nav {
     background: #010203;
     width: 100%;
 }
+
 div.sticky {
     position: sticky;
     top: 0;
-  }
-.main-nav{
+}
+
+.main-nav {
     margin-top: 100px;
 }
 
-.main-nav li{
+.main-nav li {
     display: inline-block;
     margin-left: 10px;
 }
 
-.main-nav li:first-child{
+.main-nav li:first-child {
     margin-left: 0;
 }
 
 .main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:visited {
     color: white;
     text-decoration: none;
     padding: 10px 26px;
@@ -45,6 +82,6 @@ div.sticky {
 }
 
 .main-nav li:hover a:link,
-.main-nav li:hover a:visited{
+.main-nav li:hover a:visited {
     background: #643a79;
 }
