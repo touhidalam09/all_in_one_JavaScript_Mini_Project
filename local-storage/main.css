@@ -1,0 +1,31 @@
+h1 {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: aqua;
+    background-color: brown;
+}
+
+input {
+    padding: 5px 20px;
+    margin: 15px 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 0px 20px;
+    margin: 15px 50px;
+    height: 40px;
+    width: 90px;
+    background-color: tan;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+}
+
+button:hover {
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}
